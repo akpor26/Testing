@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         //Step 11
         val products = arrayListOf<Product>()
         for (i in 0..100){
-            products.add(Product("Apple", "http://via.placeholder.com/200x200/ffff00/ff0000", 2000.00))
+            products.add(Product("Apple", "http://via.placeholder.com/200x200/dddddd/000000", 2000.00))
         }
 
         //step1

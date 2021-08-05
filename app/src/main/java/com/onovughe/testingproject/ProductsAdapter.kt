@@ -24,6 +24,7 @@ class ProductsAdapter(private val products: ArrayList<Product>):RecyclerView.Ada
         Picasso.get().load(products[position].photoUrl).into(holder.image) // manifests settings
         //Step 9
         holder.title.text = products[position].title
+        holder.price.text = products[position].price.toString()
     }
 
     //Step 6
@@ -36,6 +37,7 @@ class ProductsAdapter(private val products: ArrayList<Product>):RecyclerView.Ada
         //Step 8
         val image: ImageView = itemView.findViewById(R.id.photo)
         val title: TextView = itemView.findViewById(R.id.title)
+        val price: TextView = itemView.findViewById(R.id.price)
 
     }
 }
