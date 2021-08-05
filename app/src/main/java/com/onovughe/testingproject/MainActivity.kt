@@ -14,8 +14,8 @@ class MainActivity : AppCompatActivity() {
 
         //Step 11
         val products = arrayListOf<Product>()
-        for (i in 0..100){
-            products.add(Product("Apple", "http://via.placeholder.com/200x200/dddddd/000000", 2000.00))
+        for (i in 0..100){ // #$i it comes after Step 18
+            products.add(Product("Apple #$i", "http://via.placeholder.com/200x200/dddddd/000000", 2000.00))
         }
 
         //step1
