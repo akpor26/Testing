@@ -14,7 +14,8 @@ class MainActivity : AppCompatActivity() {
 
         //Step 11
         val products = arrayListOf<Product>()
-        for (i in 0..100){ // #$i it comes after Step 18
+        for (i in 0..100){ // #$i it comes after Step 18....run programme...
+            //Step 19 import images and open product details xml
             products.add(Product("Apple #$i", "http://via.placeholder.com/200x200/dddddd/000000", 2000.00))
         }
 
